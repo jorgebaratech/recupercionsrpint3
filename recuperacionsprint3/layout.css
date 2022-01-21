@@ -1,0 +1,26 @@
+body {
+  margin: 100px;
+  width: 300px;
+}
+
+.columna {
+  flex: 50%;
+}
+.cabecero {
+  background-color: #666;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+.textoservicio {
+  flex: 50%;
+}
+.contenedor {
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 800px) {
+  .contenedor {
+    flex-direction: column;
+  }
+}
